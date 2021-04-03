@@ -49,9 +49,9 @@ p.space{
 h1.request{
     margin:40px 40px;
     font-size:3.5em;
-   margin-bottom:40px/**/;
+   margin-bottom:40px;
     position: relative;
-    bottom: 100px;/**/
+    bottom: 100px;
 
 }
 .text a{
