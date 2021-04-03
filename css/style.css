@@ -22,8 +22,9 @@ body{
 
 }
 img{
-    height: 12000px;
     height:150px;
+    position: relative;
+    top: -80px;
     
 }
 
@@ -48,8 +49,9 @@ p.space{
 h1.request{
     margin:40px 40px;
     font-size:3.5em;
-    margin-bottom:90px
-
+   margin-bottom:40px/**/;
+    position: relative;
+    bottom: 100px;/**/
 
 }
 .text a{
@@ -63,7 +65,8 @@ h1.request{
   text-transform: uppercase;
   letter-spacing: 1px;
   transition: 0.2s;
-
+  position: relative;
+  bottom: 70px;
 }
 
 .text a:hover{
@@ -71,6 +74,8 @@ h1.request{
 }
 h3.do-chat{
     margin:10.4px 90px;
+    position: relative;
+    bottom: 100px;
 }
 p.samll-info{
     margin-top:10x;
