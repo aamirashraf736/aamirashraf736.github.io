@@ -7,7 +7,9 @@
     
     
 }
-
+html,body{
+  overflow-x: hidden;
+}
 body{
     background-color: rgb(16, 16, 73);
     font-family:Roboto,Sans-serif;
@@ -97,7 +99,8 @@ footer{
     
 }
 #footer-top{
-    height:300px;
+   margin-top:30px;
+   margin-bottom: -100px; 
 
 }
 li.cl{
@@ -108,13 +111,13 @@ li.cl{
     border: 100px;
 
 }
-a{
+a.mail{
     padding-left: 10px;
     color: burlywood;
 }
 #footer-bottom{
     background-color:rgb(30, 196, 187);
-    height: 100px;
+    
 }
 .col-about h4{
     padding:10px;
